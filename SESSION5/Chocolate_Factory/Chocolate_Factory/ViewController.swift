@@ -51,7 +51,7 @@ class ViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "chocolate",for: indexPath) as! ChocolateCellLabel
         let item = chocolate_collection[indexPath.row]
         cell.textLabel?.text = item.name + "  " + String(item.flag)
-        cell.textLabel?.textAlignment = NSTextAlignment.left
+        //cell.textLabel?.textAlignment = NSTextAlignment.left
         cell.chokoPrice.text = String(item.price)
     
         
@@ -64,12 +64,21 @@ class ViewController: UITableViewController {
         let indexPath = tableView.indexPathForSelectedRow
         let currentCell = (tableView.cellForRow(at: indexPath!)) as! ChocolateCellLabel
         
-        var str_dig: String = currentCell.chokoPrice.text!
-        var dig_dig: Double = Double(str_dig)!
+
+        // New version with if let constructiuon
+        if let str_dig = currentCell.chokoPrice.text {
+            if let dig_dig: Double = Double(str_dig) {
+                factory_label_value += dig_dig
+                headerCounter.title = String((factory_label_value*100).rounded()/100)
+            }
+        }
         
-        factory_label_value += dig_dig
-        var roundedD = (factory_label_value*100).rounded()/100
-        headerCounter.title = String(roundedD)
+        // Old variant with many ! forced unwrapping
+//        let str_dig: String = currentCell.chokoPrice.text!
+//        let dig_dig: Double = Double(str_dig)!
+//        factory_label_value += dig_dig
+//        let roundedD = (factory_label_value*100).rounded()/100
+//        headerCounter.title = String(roundedD)
        
 
     }
