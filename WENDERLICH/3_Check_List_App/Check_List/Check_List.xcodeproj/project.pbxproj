@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2242CD692252067E00B5E99A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2242CD682252067E00B5E99A /* AppDelegate.swift */; };
+		2242CD6B2252067E00B5E99A /* CheckListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2242CD6A2252067E00B5E99A /* CheckListViewController.swift */; };
+		2242CD6E2252067E00B5E99A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2242CD6C2252067E00B5E99A /* Main.storyboard */; };
+		2242CD702252067F00B5E99A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2242CD6F2252067F00B5E99A /* Assets.xcassets */; };
+		2242CD732252067F00B5E99A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2242CD712252067F00B5E99A /* LaunchScreen.storyboard */; };
+		225C921C22552B1F00DA3D46 /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225C921B22552B1F00DA3D46 /* TodoList.swift */; };
+		225C921E2255621700DA3D46 /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225C921D2255621700DA3D46 /* ItemDetailViewController.swift */; };
+		22A28BAF225340DD00CEADF9 /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A28BAE225340DD00CEADF9 /* ChecklistItem.swift */; };
+		22F37CF622579D9900AF2BF8 /* ChecklistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F37CF522579D9900AF2BF8 /* ChecklistTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2242CD652252067E00B5E99A /* Check_List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Check_List.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2242CD682252067E00B5E99A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2242CD6A2252067E00B5E99A /* CheckListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListViewController.swift; sourceTree = "<group>"; };
+		2242CD6D2252067E00B5E99A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2242CD6F2252067F00B5E99A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2242CD722252067F00B5E99A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2242CD742252067F00B5E99A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		225C921B22552B1F00DA3D46 /* TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
+		225C921D2255621700DA3D46 /* ItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailViewController.swift; sourceTree = "<group>"; };
+		22A28BAE225340DD00CEADF9 /* ChecklistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
+		22F37CF522579D9900AF2BF8 /* ChecklistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2242CD622252067E00B5E99A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2242CD5C2252067E00B5E99A = {
+			isa = PBXGroup;
+			children = (
+				2242CD672252067E00B5E99A /* Check_List */,
+				2242CD662252067E00B5E99A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2242CD662252067E00B5E99A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2242CD652252067E00B5E99A /* Check_List.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2242CD672252067E00B5E99A /* Check_List */ = {
+			isa = PBXGroup;
+			children = (
+				2242CD682252067E00B5E99A /* AppDelegate.swift */,
+				2242CD6A2252067E00B5E99A /* CheckListViewController.swift */,
+				2242CD6C2252067E00B5E99A /* Main.storyboard */,
+				2242CD6F2252067F00B5E99A /* Assets.xcassets */,
+				2242CD712252067F00B5E99A /* LaunchScreen.storyboard */,
+				2242CD742252067F00B5E99A /* Info.plist */,
+				22A28BAE225340DD00CEADF9 /* ChecklistItem.swift */,
+				225C921B22552B1F00DA3D46 /* TodoList.swift */,
+				225C921D2255621700DA3D46 /* ItemDetailViewController.swift */,
+				22F37CF522579D9900AF2BF8 /* ChecklistTableViewCell.swift */,
+			);
+			path = Check_List;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2242CD642252067E00B5E99A /* Check_List */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2242CD772252067F00B5E99A /* Build configuration list for PBXNativeTarget "Check_List" */;
+			buildPhases = (
+				2242CD612252067E00B5E99A /* Sources */,
+				2242CD622252067E00B5E99A /* Frameworks */,
+				2242CD632252067E00B5E99A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Check_List;
+			productName = Check_List;
+			productReference = 2242CD652252067E00B5E99A /* Check_List.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2242CD5D2252067E00B5E99A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "TVI Software";
+				TargetAttributes = {
+					2242CD642252067E00B5E99A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 2242CD602252067E00B5E99A /* Build configuration list for PBXProject "Check_List" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2242CD5C2252067E00B5E99A;
+			productRefGroup = 2242CD662252067E00B5E99A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2242CD642252067E00B5E99A /* Check_List */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2242CD632252067E00B5E99A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2242CD732252067F00B5E99A /* LaunchScreen.storyboard in Resources */,
+				2242CD702252067F00B5E99A /* Assets.xcassets in Resources */,
+				2242CD6E2252067E00B5E99A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2242CD612252067E00B5E99A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2242CD6B2252067E00B5E99A /* CheckListViewController.swift in Sources */,
+				225C921E2255621700DA3D46 /* ItemDetailViewController.swift in Sources */,
+				22A28BAF225340DD00CEADF9 /* ChecklistItem.swift in Sources */,
+				2242CD692252067E00B5E99A /* AppDelegate.swift in Sources */,
+				22F37CF622579D9900AF2BF8 /* ChecklistTableViewCell.swift in Sources */,
+				225C921C22552B1F00DA3D46 /* TodoList.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2242CD6C2252067E00B5E99A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2242CD6D2252067E00B5E99A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2242CD712252067F00B5E99A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2242CD722252067F00B5E99A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2242CD752252067F00B5E99A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2242CD762252067F00B5E99A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2242CD782252067F00B5E99A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J263FHT7P8;
+				INFOPLIST_FILE = Check_List/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "check-list.com.tvisoftware-project.Check-List";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2242CD792252067F00B5E99A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J263FHT7P8;
+				INFOPLIST_FILE = Check_List/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "check-list.com.tvisoftware-project.Check-List";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2242CD602252067E00B5E99A /* Build configuration list for PBXProject "Check_List" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2242CD752252067F00B5E99A /* Debug */,
+				2242CD762252067F00B5E99A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2242CD772252067F00B5E99A /* Build configuration list for PBXNativeTarget "Check_List" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2242CD782252067F00B5E99A /* Debug */,
+				2242CD792252067F00B5E99A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2242CD5D2252067E00B5E99A /* Project object */;
+}
